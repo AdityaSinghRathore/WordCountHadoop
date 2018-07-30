@@ -10,7 +10,7 @@ To install Hadoop and set System Variable follow: https://github.com/AdityaSingh
 Or,  
 ```$ start-dfs.sh```  Then do  ```$ start-yarn.sh```  
 
-2. Code the mapper in python (code files above).
+2. Code the mapper in python (code files above).  
 ```$ touch mapper.py```  
 ```$ vim mapper.py```  
 
