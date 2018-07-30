@@ -17,32 +17,32 @@ Or,
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/1mapper.png)  
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/2mappercode.png)  
 
-3. Writing a sample text file.
+3. Writing a sample text file.  
 ```$ touch sample.txt```  
 ```$ vim sample.txt```  
 
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/3samplecre.png)
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/4samplewrite.png)
 
-4. Testing the Mapper code on above sample file.
+4. Testing the Mapper code on above sample file.  
 ```$ cat sample.txt | python mapper.py```
 
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/5mapperrunloc.png)
 
-5. Creating and coding the reducer.  
-```$ touch reducer.py```  
+5. Creating and coding the reducer.    
+```$ touch reducer.py```    
 ```$ vim reducer.py```  
 
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/6reducercre.png)
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/7reducrimple.png)
 
-6. SSH to localhost and  create /user/wce/input directory in HDFS
-```$ ssh localhost```  
+6. SSH to localhost and  create /user/wce/input directory in HDFS  
+```$ ssh localhost```    
 ```$ hadoop fs -mkdir /user/wce/input```
 
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/8creatingdirs.png)
 
-7. Copy sample.txt file to the HDFS /user/wce/input/ directory.  
+7. Copy sample.txt file to the HDFS /user/wce/input/ directory.   
 ```$ hadoop fs -put sample.txt /user/wce/input```  
   
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/9aftecopy.png)
