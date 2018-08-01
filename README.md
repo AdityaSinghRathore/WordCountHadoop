@@ -34,7 +34,7 @@ Or,
 ```$ vim reducer.py```  
 
 ![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/6reducercre.png)
-![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/img/7reducrimple.png)
+![](https://github.com/AdityaSinghRathore/WordCountHadoop/blob/master/reducer1.png)
 
 6. SSH to localhost and  create /user/wce/input directory in HDFS  
 ```$ ssh localhost```    
